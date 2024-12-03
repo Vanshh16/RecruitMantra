@@ -48,6 +48,7 @@ function LevelsSection() {
                 <img
                   className="h-60 mx-auto object-center"
                   src={level.img}
+                  alt=""
                 ></img>
               </div>
               <div className="py-4 px-3 mt-2 border text-left border-orange-950">
@@ -55,6 +56,7 @@ function LevelsSection() {
                   <img
                     className="h-10 inline-block"
                     src={level.indicator}
+                    alt=""
                   ></img>{" "}
                   {level.name}
                 </h4>

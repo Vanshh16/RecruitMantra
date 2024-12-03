@@ -10,7 +10,7 @@ function Navbar() {
     <header className="bg-slate-300 p-4">
       <nav className="container mx-auto flex justify-between items-center">
         <div className="">
-          <img className="size-20 cursor-pointer" src="/assets/logo_RM.png" onClick={ ()=> navigate("/")}></img>
+          <img className="size-20 cursor-pointer" alt="" src="/assets/logo_RM.png" onClick={ ()=> navigate("/")}></img>
         </div>
         {sidebarOpen && (
           <div className="md:hidden fixed inset-0 bg-black bg-opacity-50 z-10">

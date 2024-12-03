@@ -57,7 +57,7 @@ function HeroSection() {
           </p>
         </div>
         <div className="container mt-10 lg:w-[50%] mx-auto text-center">
-          <img className="h-96" src="/assets/image1.png" />
+          <img className="h-96" src="/assets/image1.png" alt=""/>
         </div>
       </section>
     </>
